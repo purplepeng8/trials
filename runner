@@ -2,7 +2,6 @@
 echo Starting Jenkins build
 python run.py
 ecode=$?
-echo AAA $ecode BBB
 if [ $ecode -eq 0 ]
 then
   echo all well
