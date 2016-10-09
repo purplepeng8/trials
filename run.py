@@ -15,7 +15,7 @@ a=0
 #b=2
 
 #print 'Hi'
-asserti(a,1)
+asserti(a,2)
 #asserti(b,1)
 #print 'Bye'
 
