@@ -15,6 +15,6 @@ b=2
 
 print 'Hi'
 asserti(a,1)
-asserti(b,3)
+asserti(b,4)
 print 'Bye'
 
