@@ -11,7 +11,7 @@ def asserti(x,y):
         raise ValueError('mismatch')
         sys.exit(1)
 
-a=0
+a=1
 #b=2
 
 #print 'Hi'
