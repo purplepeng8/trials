@@ -13,6 +13,7 @@ ADD ./* /root/dckr_work/
 #RUN git clone https://github.com/3dsig/dragon.git /dckr_work/
     
 WORKDIR /root/dckr_work
+RUN pwd
 RUN ls -ltr
 
 #RUN ./scripts/git-update-all
