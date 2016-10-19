@@ -7,12 +7,12 @@ MAINTAINER 3dsig bot "bot@3dsig.com"
 RUN pwd
 RUN ls -ltr
 ############
-COPY . /root/dckr_work/
+ADD ./* /root/dckr_work/
 ############
 #RUN git clone https://3dsig-bot:MX3j7aLy@github.com/3dsig/dragon.git /dckr_work/
 #RUN git clone https://github.com/3dsig/dragon.git /dckr_work/
     
-WORKDIR /dckr_work
+WORKDIR /root/dckr_work
 RUN ls -ltr
 
 #RUN ./scripts/git-update-all
