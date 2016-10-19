@@ -5,7 +5,7 @@ MAINTAINER 3dsig bot "bot@3dsig.com"
 # install system-wide deps for python and node
 
 RUN pwd
-
+RUN ls -ltr
 ############
 COPY . /root/dckr_work/
 ############
@@ -13,7 +13,7 @@ COPY . /root/dckr_work/
 #RUN git clone https://github.com/3dsig/dragon.git /dckr_work/
     
 WORKDIR /dckr_work
-CMD ls -ltr
+RUN ls -ltr
 
 #RUN ./scripts/git-update-all
 
